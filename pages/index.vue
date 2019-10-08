@@ -7,7 +7,7 @@
   //-       | {{item}}
   .container
     button.add(@click="addElem" key="qwe") Add
-    button.rm(@click="rmElem" key="asd") Rm
+    button.rm(@click="rmElem" key="asd") Remove
     button#shuffle(@click="shuffleList") Перемешать
     div
       transition-group(name="flip-list")
