@@ -10,8 +10,8 @@
     button.rm(@click="rmElem" key="asd") Remove
     button#shuffle(@click="shuffleList") Перемешать
     div
-      transition-group(name="flip-list")
-        p(v-for="(item, index) in list" :key="'p' + item") 
+      transition-group#shuffle-list(name="flip-list")
+        p.shuffle-item(v-for="(item, index) in list" :key="'p' + item") 
           | {{ item }}
 </template>
 

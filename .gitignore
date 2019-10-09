@@ -90,3 +90,5 @@ sw.*
 *.swp
 
 .history
+tests_output
+cypress/integration/examples
