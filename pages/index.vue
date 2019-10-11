@@ -22,7 +22,7 @@ export default {
   data() {
     return {
       value: true,
-      list: [1, 2, 3, 4, 5, 6],
+      list: [1, 2, 4, 5, 6],
     }
   },
   methods: {
